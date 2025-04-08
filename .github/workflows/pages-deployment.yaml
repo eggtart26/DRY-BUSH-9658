@@ -21,6 +21,6 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_WORKERS_SECRET }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: delicate-sound-a268 # e.g. 'my-project'
+          projectName: DRY-BUSH-9658 # e.g. 'my-project'
           directory: dist # e.g. 'dist'
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
